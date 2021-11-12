@@ -1,0 +1,29 @@
+{
+    "name": "Lazy Troll Blocker",
+    "version": "0.3.0",
+    "description": "Automatically block Twitter accounts from lazy trolls",
+    "manifest_version": 2,
+  
+    "content_scripts": [
+      {
+        "js": [
+          "jquery-3.3.1.min.js",
+          "content.js"
+        ],
+      "matches": ["*://*.twitter.com/*", "*://twitter.com/*"]
+      }
+    ],
+    "permissions": [
+      "storage",
+      "activeTab"
+    ],
+    "browser_action": {
+      "default_icon": "icon128.png",
+      "default_popup": "popup.html"
+    },
+    "icons": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  }
