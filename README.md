@@ -10,9 +10,9 @@ You need to come up with a solution to protect women globally from social media 
 
 -Using ML Models to classify the sentiments of the comments made on women as offensive and non-offensive.
 
--Considering Twitter as one of the platform where various kinds of trolls occur everyday. We use Twitter APIs to scrap post based on the keywords to test our model.
+-Considering **Twitter** as one of the platform where various kinds of trolls occur everyday. We use **_Twitter API_s** to scrap post based on the keywords to test our model.
 
--Using Chrome Extension to block accounts who troll frequently.
+-Using **Chrome Extension** to block accounts who troll frequently.
 
 
 ### Tech stack:
@@ -75,7 +75,7 @@ Using Twitter APIs to scrap 10 post and classify them between offensive and non-
 
 
   
- Build & Designed Dashboard using streamlit for Data Visualisation in training and testing data and deploy the Stochastic Gradient Descent Model and.
+ Build & Designed _Dynamic Dashboard_ using **Streamlit** for Data Visualisation in training and testing data and deploy the Stochastic Gradient Descent Model and.
 
 ### Run On Local System
 
