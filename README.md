@@ -118,7 +118,27 @@ streamlit run app.py
 
 https://user-images.githubusercontent.com/62153950/141665440-0293dfb3-8898-4c49-963f-bd87df4b76ba.mov
 
+## Detect Trolls : A chrome extension in building phase
+Twitter has become a breeding grounds sociopaths, conservatives who try to impose their belives by polluting your tweets or feeds. As a person with many followers it become difficult to block everyone of them so here are we to optimize your task and save yout time and mental piece, all you have to so is just add this chrome extension and imagine a clean and positive twitter feed coming your way.
 
+The logic to how users will be blocked can be found in the js files,we have used jQuery for extracting the information.
+
+Deploying this chrome extension in order to provide a full time analysis to real time twitter using people comes to our future scope as we believe in optimizing our coding standards before realising the beta version.
+This chrome extension can automatically block accounts with
+
+Default profile pictures
+Screen names ending with 8 digits
+No profile text
+Fewer than a certain number of followers
+Certain keywords in their profile
+Certain keywords in their user name
+All of these can be configured to your taste. Only the first two are enabled by default.
+
+This does not block accounts who
+
+You follow
+Simply tweet keywords
+The extension scans the page for tweets, evaluates the username and profile picture. If those are fine, it fetches their profile and looks for the keywords. If a block is warranted, it triggers the click events for the block button and the block confirmation dialog. If a user is cleared, it'll skip checking them going forward until the page is reloaded.
 ## Future Scope
 
 1. Report the posts that are offensive
