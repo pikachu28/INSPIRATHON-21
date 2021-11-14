@@ -10,11 +10,9 @@ You need to come up with a solution to protect women globally from social media 
 
 -Using ML Models to classify the sentiments of the comments made on women as offensive and non-offensive.
 
--Considering Twitter as one of the platform where various kinds of trolls occur everyday.
+-Considering Twitter as one of the platform where various kinds of trolls occur everyday. We use Twitter APIs to scrap post based on the keywords to test our model.
 
--So, Twitter APIs to scrap post based on the keywords to test our model.
-
--Using Chrome Extension to block people
+-Using Chrome Extension to block accounts who troll frequently.
 
 
 ### Tech stack:
