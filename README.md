@@ -144,5 +144,6 @@ This does not block accounts who you follow simply tweet keywords. The extension
 
 1. Report the posts that are offensive
 2. Blocking the posts to be uploaded whose sentiments have offensive meaning against women on social media platforms
+3. Deploying the chrome extension
 
 
