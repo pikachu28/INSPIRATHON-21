@@ -19,7 +19,7 @@ You need to come up with a solution to protect women globally from social media 
 
 Python, Natural Language Processing, StreamLit
 
-Various Tools like Numpy, pandas, matplotlib
+Various Tools like Numpy, pandas, matplotlib, tweepy
 
 ## Features 
 
