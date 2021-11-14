@@ -121,7 +121,7 @@ https://user-images.githubusercontent.com/62153950/141665440-0293dfb3-8898-4c49-
 
 ## Future Demo
 
-1. Report the post's that are offensive
-2. 
+1. Report the posts that are offensive
+2. Blocking the posts to be uploaded whose sentiments have offensive meaning against women on social media platforms
 
 
