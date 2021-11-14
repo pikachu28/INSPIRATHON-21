@@ -116,3 +116,12 @@ streamlit run app.py
 
 
 
+https://user-images.githubusercontent.com/62153950/141665440-0293dfb3-8898-4c49-963f-bd87df4b76ba.mov
+
+
+## Future Demo
+
+1. Report the post's that are offensive
+2. 
+
+
