@@ -20,7 +20,7 @@ def get_related_tweets(text_query):
     # list to store tweets
     tweets_list = []
     # no of tweets
-    count = 5
+    count = 10
     try:
         # Pulling individual tweets from query
         for tweet in api.search_tweets(q=text_query, count=count):
