@@ -10,7 +10,7 @@ You need to come up with a solution to protect women globally from social media 
 
 -Using ML Models to classify the sentiments of the comments made on women as offensive and non-offensive.
 
--Considering **Twitter** as one of the platform where various kinds of trolls occur everyday. We use **_Twitter API_s** to scrap post based on the keywords to test our model.
+-Considering **Twitter** as one of the platform where various kinds of trolls occur everyday. We use **Twitter APIs** to scrap post based on the keywords to test our model.
 
 -Using **Chrome Extension** to block accounts who troll frequently.
 
@@ -49,9 +49,9 @@ Conclusion: The Algorithms Bagging, SGD, Logistic Regression and Decision Tree a
 
 Hypertuning the Parameters gives:
 
-Best Performed Model: Stochastic Gradient Descent
+**Best Performed Model: **Stochastic Gradient Descent
 ```
-SGDClassifier
+_SGDClassifier
 
 Optimized Model
 ------
@@ -59,7 +59,7 @@ Best Parameters: {'alpha': 0.0002, 'max_iter': 3000}
 Accuracy: 0.9270
 F1-score: 0.9431
 Precision: 0.9669
-Recall: 0.9204
+Recall: 0.9204_
 ```
 
 #### Testing
@@ -75,7 +75,7 @@ Using Twitter APIs to scrap 10 post and classify them between offensive and non-
 
 
   
- Build & Designed _Dynamic Dashboard_ using **Streamlit** for Data Visualisation in training and testing data and deploy the Stochastic Gradient Descent Model and.
+ Build & Designed _Dynamic Dashboard_ using **Streamlit** for Data Visualisation in training and testing data and deploy the **Stochastic Gradient Descent Model** and.
 
 ### Run On Local System
 
@@ -124,7 +124,7 @@ Twitter has become a breeding grounds sociopaths, conservatives who try to impos
 The logic to how users will be blocked can be found in the js files,we have used jQuery for extracting the information.
 
 Deploying this chrome extension in order to provide a full time analysis to real time twitter using people comes to our future scope as we believe in optimizing our coding standards before realising the beta version.
-This chrome extension can automatically block accounts with
+_This chrome extension can automatically block accounts with_
 
 ```
 Default profile pictures
@@ -136,7 +136,7 @@ Certain keywords in their user name
 All of these can be configured to your taste. Only the first two are enabled by default.
 ```
 
-This does not block accounts who you follow simply tweet keywords. The extension scans the page for tweets, evaluates the username and profile picture. If those are fine, it fetches their profile and looks for the keywords. If a block is warranted, it triggers the click events for the block button and the block confirmation dialog. If a user is cleared, it'll skip checking them going forward until the page is reloaded.
+This does not block accounts who you follow simply **tweet keywords**. The extension scans the page for tweets, evaluates the username and profile picture. If those are fine, it fetches their profile and looks for the keywords. If a block is warranted, it triggers the click events for the block button and the block confirmation dialog. If a user is cleared, it'll skip checking them going forward until the page is reloaded.
 
 ## Future Scope
 
