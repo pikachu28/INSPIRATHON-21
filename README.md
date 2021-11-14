@@ -51,7 +51,7 @@ Hypertuning the Parameters gives:
 
 **Best Performed Model: **Stochastic Gradient Descent
 ```
-_SGDClassifier
+SGDClassifier
 
 Optimized Model
 ------
@@ -59,7 +59,7 @@ Best Parameters: {'alpha': 0.0002, 'max_iter': 3000}
 Accuracy: 0.9270
 F1-score: 0.9431
 Precision: 0.9669
-Recall: 0.9204_
+Recall: 0.9204
 ```
 
 #### Testing
