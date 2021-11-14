@@ -1,4 +1,4 @@
-# INSPIRATHON
+# INSPIRATHON-Team Captain Denver
 
 ## Problem Statement:
 
